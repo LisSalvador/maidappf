@@ -1,0 +1,108 @@
+*
+{
+    font-family:  "Chasing Hearts";
+    font-size: 15pt;
+    font-weight: bold;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+#navicons
+{
+    margin-top: 3px;
+}
+#cartlbl
+{
+    margin-left: -30px;
+}
+#navicons:hover
+{
+    color: white;
+}
+.navbar
+{
+    background-color: #fff ; 
+}
+
+#formlogin
+{
+    margin-top: -650px;
+}
+.nologin
+{
+    margin-top: -550px;
+    color: white;
+    font-size: 30pt;
+    background-color: graytext;
+    opacity: 0.8;
+}
+.managerstock
+{
+    background-color: gray;
+    color:white;
+    margin-bottom: 4px;
+}
+.managerstocklabels
+{
+    
+    font-size: 11pt;
+}
+#acciones
+{
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+.iconos
+{
+    text-decoration: none;
+    color:white;
+}
+
+
+.icons
+{
+   color: whitesmoke;
+}
+body
+{
+
+    font-size: 16pt;
+   
+    min-height: 100vh;
+}
+footer {
+  align-self: flex-end;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  margin: 0px;
+  
+  
+}
+.imageedit
+{
+    position: center;
+    
+}
+.text
+{
+    color:red;
+}
+
+
+.navbar
+{
+    background-color:#F29C94;
+    
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}

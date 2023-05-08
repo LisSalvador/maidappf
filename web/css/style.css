@@ -22,7 +22,8 @@ html {
 }
 .navbar
 {
-    background-color: #fff ; 
+    background-color: #fff; 
+    
 }
 
 #formlogin
@@ -95,7 +96,7 @@ footer {
 }
 
 
-.navbar
+.navbar, nav, .footer-copyright
 {
     background-color:#F29C94;
     

@@ -1,4 +1,10 @@
 <%-- 
+    Document   : contactanos
+    Created on : 05-08-2023, 01:34:20 PM
+    Author     : MINEDUCYT
+--%>
+
+<%-- 
     Document   : index
     Created on : 09-07-2020, 01:44:19 PM
     Author     : JonaC
@@ -17,27 +23,12 @@
      
   <div class="row">
       <div class="col-8">
-          <h1>Bienvenidos a Maid Café</h1>
+          <h1>Bienvenidos a Maid Café- Contacto</h1>
           <p>
       Encuentra todo lo que buscas en un solo lugar. Bienvendos a Anima Sola Maid Café, lideres en Postres y Café. Podrás encontrar una amplia variedad de productos y diferentes servicios.
       </p>
       </div>
-    <div class="col-4" id="formlogin">
-        <h1>Iniciar Sesion</h1>
-        <form action="login" method="POST">
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" class="form-control" name="pass" id="pass">
-  </div>
- 
-   <input name="accion" value="Aceptar" type="submit" id="accion" class="btn btn-danger btn-block" required>
-  <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
-</form>
-    </div>
+   
   </div>
         
 </div>

@@ -74,6 +74,19 @@ public class usercontrol extends HttpServlet {
                  break;
             
             }
+                 case "viewproducto":
+            {
+                 request.getRequestDispatcher("view/productos/verproducto.jsp").forward(request, response);
+                 break;
+            
+            }
+              case "contacto":
+            {
+                 request.getRequestDispatcher("contactanos.jsp").forward(request, response);
+                 break;
+            
+            }
+            
               case "Guardar producto":
             {
                  String titulo=request.getParameter("titulo");

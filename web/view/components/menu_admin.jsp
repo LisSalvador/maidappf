@@ -1,13 +1,13 @@
-
+    
 <%-- 
     Document   : newjsp
     Created on : 04-10-2020, 02:54:29 PM
     Author     : JonaC
 --%>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm  navbar-dark">
 
-  <a class="navbar-brand" href="usercontrol?accion=home">GLAUDEM</a>
+  <a class="navbar-brand" href="usercontrol?accion=home">Maid Cafe</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,7 +26,7 @@
           Productos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Ver productos</a>
+          <a class="dropdown-item" href="usercontrol?accion=viewproducto">Ver productos</a>
           <a class="dropdown-item" href="usercontrol?accion=addproducto">Nuevo producto</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Dar de baja</a>

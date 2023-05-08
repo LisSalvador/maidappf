@@ -5,7 +5,8 @@
 --%>
 
 <nav class="navbar navbar-expand-sm navbar">
-  <a class="navbar-brand" href="#">MadStore</a>
+    
+    <a class="navbar-brand" href="#"><img src="./assets/img/Logo1.png" width="50px"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -16,11 +17,11 @@
         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Ubicacion</a>
+          <a class="nav-link" href="https://www.google.com/maps" target="_blank">Ubicacion</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+          <a class="nav-link" href="usercontrol?accion=contacto" tabindex="-1">Contactanos</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

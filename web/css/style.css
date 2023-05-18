@@ -70,8 +70,10 @@ body
 {
 
     font-size: 16pt;
-   
     min-height: 100vh;
+    color: #CD5C5C;
+    background-color: #FFECF4;
+    
 }
 footer {
   align-self: flex-end;
@@ -85,11 +87,8 @@ footer {
   
   
 }
-.imageedit
-{
-    position: center;
+
     
-}
 .text
 {
     color:red;
@@ -107,3 +106,114 @@ a
     color: white;
     text-decoration: none;
 }
+
+a:hover {
+    color: #592C12;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-danger {
+    
+    color: #0D0D0D;
+    background-color: #F29C94;
+   border-radius: 10px;
+   border: solid 3px;
+   border: solid #CD5C5C;
+}
+
+
+.btn-danger:hover {
+    
+    color: #0D0D0D;
+   background-color: #FA8072;
+   border-radius: 10px;
+   border: solid 3px;
+   border: solid #CD5C5C;
+}
+
+
+.btn-primary {
+   color: #0D0D0D;
+   background-color: #FA8072;
+   border-radius: 10px;
+   border: solid 3px;
+   border: solid #CD5C5C;
+}
+
+.btn-primary:hover{
+   color: #0D0D0D;
+   background-color: #F29C94;
+   border-radius: 10px;
+   border: solid 3px;
+   border: solid #CD5C5C;
+}
+
+.btn-outline-success {
+    color: #592C12;
+    border-color:white;
+}
+
+.btn-outline-success:hover {
+    color: #592C12;
+    border-color:#592C12;
+    background-color:#CD5C5C;
+
+}
+
+#SearchMenu {
+   
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #592C12;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #CD5C5C;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control, #email, #pass {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0D0D0D;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #CD5C5C;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control mr-sm-2, #Search {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0D0D0D;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(255, 236, 244 );
+}
+
+
